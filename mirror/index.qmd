@@ -1,7 +1,9 @@
 ---
 title: "Farm Store and Penguins"
 subtitle: "Get Started with Quarto"
-format: html
+format: 
+  html:
+    code-fold: true
 editor: visual
 ---
 

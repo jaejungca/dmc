@@ -1,49 +1,9 @@
 ---
-title: "Farm Store and Penguins"
+title: "Hello, Penguins"
 subtitle: "Get Started with Quarto"
 format: html
 editor: visual
 ---
-
-# Farm Store
-
-CPP Farm store has a selected assortment of cool fruits and vegetables right from its on-campus farm.
-
-## Featured Products:
-
-Illustration of Multiple columns on a website
-
-::: {layout-ncol="2"}
-![A sample of gift-pack prepared from CPP Grown produce](gift-pack2022.jpg){#fig-gift}
-
-![A sample of wine made from grapes grown right here on campus](2022-hv-zin-rose-755x325.jpg){#fig-wine}
-:::
-
-::: columns
-::: {.column width="50%"}
-Great gift for your loved ones. These fruits were raised by students in agriculture majors on CPP campus, processed and packed by student employees at Farm Store.
-:::
-
-::: {.column width="50%"}
-Fantastic wine produced right here CPP campus by students!
-:::
-:::
-
-## Web site menus
-
-Use `panel-tabset` to add multiple tabs to your website.
-
-::: panel-tabset
-### Fruit gift packs
-
-![A sample of gift-pack prepared from CPP Grown produce](gift-pack2022.jpg)
-
-### Rose Wine
-
-![A sample of wine made from grapes grown right here on campus](2022-hv-zin-rose-755x325.jpg)
-:::
-
-For beautiful graphic of fruit gift pack, see @fig-gift.
 
 # Data
 
@@ -93,25 +53,3 @@ penguins |>
   gt()
 
 ```
-
-# How to post online
-
-1.  Create your content in Quarto. You need at least three documents.
-
-    1.  index.qmd
-
-    2.  another qmd file
-
-    3.  "\_quarto.yml" created in Text File.
-
-2.  Reload the project from the upper-right-hand corner. After this, you should see the "Build" tab appear.
-
-3.  Click "Render Website" and confirm that you have a website with the two files combined.
-
-4.  Now it is time to publish.
-
-    1.  Move to the terminal
-
-    2.  Type "quarto publish quarto-pub" and follow the instructions there.
-
-    3.  Go to your quarto pub and find the website.
