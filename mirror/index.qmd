@@ -4,6 +4,8 @@ subtitle: "Get Started with Quarto"
 format: 
   html:
     code-fold: true
+    toc: true
+    number-sections: true
 editor: visual
 ---
 
@@ -47,9 +49,38 @@ Use `panel-tabset` to add multiple tabs to your website.
 
 For beautiful graphic of fruit gift pack, see @fig-gift.
 
-# Data
+# Preparation
 
+## Choosing Data
+
+> Penguins are very cute!
+
+... so let's work with penguin data today.
+
+::: callout-note
 For this analysis we will use the `penguins` dataset from the [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) package.
+:::
+
+::: {.callout-caution collapse="true"}
+## Expand to learn more about where the data was collected
+
+Data were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.
+:::
+
+## Loading packages and reading data
+
+First, we need to:\
+1. load **packages**\
+2. read in **data**\
+3. check if that data is *in the right format*
+
+[By "right format", we mean that the data is tidy, and ready to be summarized and graphed.]{.aside}
+
+::: callout-tip
+## Using the data without downloading it
+
+This same dataset is also available in the almerpenguins package.
+:::
 
 ```{r}
 #| label: load-packages
@@ -60,16 +91,27 @@ library(ggthemes)
 library(palmerpenguins)
 library(gt)
 
+# data()
+head(penguins)
+
+penguins |> 
+  drop_na() -> penguins_no_na
 ```
 
-# Species
+We have removed missing values here, which means that the data has now `r nrow(penguins_no_na)` rows. Note that previously there were `r nrow(penguins)` rows in the original data.[^1]
 
-The figure below is a bar plot of species of penguins.
+[^1]: Note that this removes any rows with missing values!
+
+# Charts by Species
+
+@fig-bill-dims-species is a bar plot of species of penguins.
 
 ```{r}
-#| label: bill-dims-species
+#| label: fig-bill-dims-species
+#| fig-cap: Penguin bill dimensions
 #| fig-width: 5
 #| fig-asp: 0.618
+#| warning: false
 
  penguins |> 
    ggplot(aes(bill_length_mm, bill_depth_mm, color = species,
@@ -82,16 +124,18 @@ The figure below is a bar plot of species of penguins.
 
 ```
 
-# Penguins
+# Tables
 
-The table below shows the first 10 penguins from the dataset.
+@tbl-penguins-top10 shows the first 10 penguins from the dataset.
 
 ```{r}
-#| label: penguins-top10
+#| label: tbl-penguins-top10
+#| tbl-cap: Top 10 penguins sorted by bill lengths
 
 penguins |> 
   slice_head(n = 10) |> 
   select(species, island, bill_length_mm, bill_depth_mm) |> 
+  arrange(-bill_length_mm) |> 
   gt()
 
 ```
@@ -117,3 +161,10 @@ penguins |>
     2.  Type "quarto publish quarto-pub" and follow the instructions there.
 
     3.  Go to your quarto pub and find the website.
+
+# References
+
+-   Authoring: <https://quarto.org/docs/authoring/markdown-basics.html>
+
+-   Creating a website: <https://quarto.org/docs/websites/>
+-   Learn Quarto basics by watching this video: {{< video https://www.youtube.com/watch?v=QcmFSIPGJBM >}}
