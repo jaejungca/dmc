@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: f79315be-711a-401e-8249-11efd4433178
+      url: 'https://jmjung.quarto.pub/welcome-to-farm-store-in-quarto'

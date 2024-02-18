@@ -3,10 +3,13 @@ title: "Farm Store and Penguins"
 subtitle: "Get Started with Quarto"
 format: 
   html:
-    code-fold: true
     toc: true
     number-sections: true
+  pdf: default
 editor: visual
+execute: 
+  echo: true
+bibliography: references.bib
 ---
 
 # Farm Store
@@ -49,7 +52,7 @@ Use `panel-tabset` to add multiple tabs to your website.
 
 For beautiful graphic of fruit gift pack, see @fig-gift.
 
-# Preparation
+# Data Preparation
 
 ## Choosing Data
 
@@ -58,7 +61,7 @@ For beautiful graphic of fruit gift pack, see @fig-gift.
 ... so let's work with penguin data today.
 
 ::: callout-note
-For this analysis we will use the `penguins` dataset from the [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) package.
+For this analysis we will use the `penguins` dataset from the [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/) package.[@horst2020]
 :::
 
 ::: {.callout-caution collapse="true"}
@@ -76,7 +79,7 @@ First, we need to:\
 
 [By "right format", we mean that the data is tidy, and ready to be summarized and graphed.]{.aside}
 
-::: callout-tip
+::: {.callout-important .smaller}
 ## Using the data without downloading it
 
 This same dataset is also available in the almerpenguins package.
@@ -111,7 +114,13 @@ We have removed missing values here, which means that the data has now `r nrow(p
 #| fig-cap: Penguin bill dimensions
 #| fig-width: 5
 #| fig-asp: 0.618
+#| fig-alt: |
+#|    A scatterplot of penguins' bill depth and length, 
+#|    colored by species of penguins. There is a strong, linear 
+#|    association.   
 #| warning: false
+#| output-location: slide
+
 
  penguins |> 
    ggplot(aes(bill_length_mm, bill_depth_mm, color = species,
@@ -167,4 +176,9 @@ penguins |>
 -   Authoring: <https://quarto.org/docs/authoring/markdown-basics.html>
 
 -   Creating a website: <https://quarto.org/docs/websites/>
+
+-   [Quarto Gallery](https://quarto.org/docs/gallery/)
+
+-   Get Started with Quarto \| Mine Cetinkaya-Rundel: {{< video https://www.youtube.com/watch?v=_f3latmOhew&t=4s >}}
+
 -   Learn Quarto basics by watching this video: {{< video https://www.youtube.com/watch?v=QcmFSIPGJBM >}}

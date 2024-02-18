@@ -1,0 +1,25 @@
+---
+title: "About"
+format: html
+editor: visual
+---
+
+# About Us
+
+The Farm Store at Kellogg Ranch, located at AGRIscapes, features a variety of products and novelty items including produce from the campus farm, orchards, nursery, and greenhouses such as:
+
+-   Fresh-squeezed Cal Poly Pomona orange juice
+
+-   Cheese, meats and milk products
+
+-   Cal Poly Pomona grown and locally grown fruits and vegetables
+
+-   Cal Poly Pomona wines and beers
+
+-   100% pure and local honey
+
+-   Grind your own peanut and almond butter
+
+-   Nursery and ornamental crops such as herbs, potted foliage and flowering plants, annuals and perennials, and landscape container plants
+
+-   Gift items include our popular [fruit gift packs](https://www.cpp.edu/farmstore/gift-shop.shtml) and custom gift baskets
