@@ -4,7 +4,23 @@ format: html
 editor: visual
 ---
 
-# About Us
+# Learning Objectives
+
+Through this lesson, you should be able to:
+
+1.  Be familiar with markdown basics.
+
+2.  Know how to cross reference figures and tables.
+
+3.  Explain various types of callout blocks.
+
+4.  Implement code annotation.
+
+5.  Create pdf and presentation slides.
+
+6.  Create a website.
+
+# CPP Farm Store
 
 The Farm Store at Kellogg Ranch, located at AGRIscapes, features a variety of products and novelty items including produce from the campus farm, orchards, nursery, and greenhouses such as:
 

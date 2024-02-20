@@ -2,24 +2,23 @@
 title: "Farm Store and Penguins"
 subtitle: "Get Started with Quarto"
 format: 
-  html:
-    toc: true
-    number-sections: true
-    code-fold: true
-    code-link: true
-  pdf: default
+  revealjs:
+      theme: serif
+      smaller: false
+      footer: "DMC Program Project"
+      logo: 05_28_20_Center for Customer Insights_Logo_Green Transparent.png
 editor: visual
+bibliography: references.bib
 execute: 
   echo: true
-bibliography: references.bib
-code-annotations: true
+code-annotations: hover
 ---
 
 # Farm Store
 
 CPP Farm store has a selected assortment of cool fruits and vegetables right from its on-campus farm.
 
-## Featured Products:
+## Featured Products {.smaller}
 
 Illustration of Multiple columns on a website
 
@@ -39,7 +38,7 @@ Fantastic wine produced right here CPP campus by students!
 :::
 :::
 
-## Web site menus
+## Products {.smaller}
 
 Use `panel-tabset` to add multiple tabs to your website.
 
@@ -55,7 +54,7 @@ Use `panel-tabset` to add multiple tabs to your website.
 
 For beautiful graphic of fruit gift pack, see @fig-gift.
 
-# Data Preparation
+# Data Preparation {.smaller}
 
 First, we need to:\
 1. load **packages**\
@@ -75,16 +74,15 @@ For this analysis we will use the `penguins` dataset from the [palmerpenguins](h
 :::
 
 ::: {.callout-caution collapse="true"}
-## Expand to learn more about where the data was collected
+### Expand to learn more about where the data was collected
 
 Data were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, a member of the Long Term Ecological Research Network.
 :::
 
-## Loading packages and reading data
-
+## Loading packages
 
 ::: {.callout-important .smaller}
-## Using the data without downloading it
+### Using the data without downloading it
 
 This same dataset is also available in the almerpenguins package.
 :::
@@ -100,26 +98,27 @@ library(gt)
 ```
 
 ## Reading Data
+
 ```{r}
 #| label: head-data
-#| output-location: slide
+#| output-location: fragment
 
 head(penguins)
+glimpse(penguins)
 
 ```
 
-## Cleaning Data
+## Cleaning the data {.smaller}
+
 ```{r}
 #| label: glimpse-data
-#| output-location: slide
+#| output-location: default
 
-glimpse(penguins)
 
 penguins |> 
   drop_na() -> penguins_no_na
 penguins_no_na
 ```
-
 
 We have removed missing values here, which means that the data has now `r nrow(penguins_no_na)` rows. Note that previously there were `r nrow(penguins)` rows in the original data.[^1]
 
@@ -127,7 +126,7 @@ We have removed missing values here, which means that the data has now `r nrow(p
 
 ## Code Annotation
 
-```r
+``` r
 library(tidyverse)
 library(palmerpenguins)
 penguins |>                                      # <1>
@@ -136,10 +135,11 @@ penguins |>                                      # <1>
     bill_area  = bill_depth_mm * bill_length_mm  # <2>
   )                                              # <2>
 ```
-1. Take `penguins`, and then,
-2. add new columns for the bill ratio and bill area.
 
-# Charts by Species
+1.  Take `penguins`, and then,
+2.  add new columns for the bill ratio and bill area.
+
+# Charts by Species {.smaller}
 
 @fig-bill-dims-species is a bar plot of species of penguins.
 
@@ -167,13 +167,15 @@ penguins |>                                      # <1>
 
 ```
 
-# Tables
+# Tables {.smaller}
 
 @tbl-penguins-top10 shows the first 10 penguins from the dataset.
 
 ```{r}
 #| label: tbl-penguins-top10
 #| tbl-cap: Top 10 penguins sorted by bill lengths
+#| code-line-numbers: "|2|4-5"
+#| output-location: column-fragment
 
 penguins |> 
   slice_head(n = 10) |> 
@@ -183,7 +185,7 @@ penguins |>
 
 ```
 
-# How to post online
+# How to post online {.smaller}
 
 1.  Create your content in Quarto. You need at least three documents.
 
@@ -205,7 +207,7 @@ penguins |>
 
     3.  Go to your quarto pub and find the website.
 
-# Resources
+# Resources {.smaller}
 
 -   Authoring: <https://quarto.org/docs/authoring/markdown-basics.html>
 
@@ -213,8 +215,14 @@ penguins |>
 
 -   [Quarto Gallery](https://quarto.org/docs/gallery/)
 
+------------------------------------------------------------------------
+
 -   Get Started with Quarto \| Mine Cetinkaya-Rundel: {{< video https://www.youtube.com/watch?v=_f3latmOhew&t=4s >}}
 
+------------------------------------------------------------------------
+
 -   Learn Quarto basics by watching this video: {{< video https://www.youtube.com/watch?v=QcmFSIPGJBM >}}
+
+------------------------------------------------------------------------
 
 ## References
