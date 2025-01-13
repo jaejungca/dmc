@@ -1,0 +1,16 @@
+project: 
+  type: website
+  output-dir: docs
+  
+website: 
+  title: "Welcome to Farm Store - DMC"
+  navbar: 
+    left: 
+      - text: Home
+        href: index.qmd
+      - text: Presentation
+        href: presentation.qmd
+      - href: about.qmd
+
+execute: 
+  freeze: auto
