@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.7.5">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
 <title>Farm Store and Penguins – Welcome to Farm Store - DMC</title>
 <style>
 code{white-space: pre-wrap;}
@@ -73,6 +76,7 @@ div.csl-indent {
   margin-left: 2em;
 }</style>
 
+
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
@@ -88,7 +92,8 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ff4371ef257df69894857e99c6ad0d06.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d4be639c637f3db3c684c66cefad7e0c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap-d4be639c637f3db3c684c66cefad7e0c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -115,11 +120,16 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+
+
 </head>
+
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Welcome to Farm Store - DMC</span>
@@ -131,7 +141,7 @@ div.csl-indent {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item">
+  <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
@@ -144,47 +154,49 @@ div.csl-indent {
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-<li>
-<a href="#farm-store" id="toc-farm-store" class="nav-link active" data-scroll-target="#farm-store">Farm Store</a>
+  <li><a href="#farm-store" id="toc-farm-store" class="nav-link active" data-scroll-target="#farm-store">Farm Store</a>
   <ul class="collapse">
-<li><a href="#featured-products" id="toc-featured-products" class="nav-link" data-scroll-target="#featured-products">Featured Products:</a></li>
+  <li><a href="#featured-products" id="toc-featured-products" class="nav-link" data-scroll-target="#featured-products">Featured Products:</a></li>
   <li><a href="#web-site-menu" id="toc-web-site-menu" class="nav-link" data-scroll-target="#web-site-menu">Web site menu</a></li>
-  </ul>
-</li>
-  <li>
-<a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a>
+  </ul></li>
+  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a>
   <ul class="collapse">
-<li><a href="#choosing-data" id="toc-choosing-data" class="nav-link" data-scroll-target="#choosing-data">Choosing Data</a></li>
+  <li><a href="#choosing-data" id="toc-choosing-data" class="nav-link" data-scroll-target="#choosing-data">Choosing Data</a></li>
   <li><a href="#loading-packages-and-reading-data" id="toc-loading-packages-and-reading-data" class="nav-link" data-scroll-target="#loading-packages-and-reading-data">Loading packages and reading data</a></li>
   <li><a href="#reading-data" id="toc-reading-data" class="nav-link" data-scroll-target="#reading-data">Reading Data</a></li>
   <li><a href="#cleaning-data" id="toc-cleaning-data" class="nav-link" data-scroll-target="#cleaning-data">Cleaning Data</a></li>
   <li><a href="#code-annotation" id="toc-code-annotation" class="nav-link" data-scroll-target="#code-annotation">Code Annotation</a></li>
-  </ul>
-</li>
+  </ul></li>
   <li><a href="#charts-by-species" id="toc-charts-by-species" class="nav-link" data-scroll-target="#charts-by-species">Charts by Species</a></li>
   <li><a href="#tables" id="toc-tables" class="nav-link" data-scroll-target="#tables">Tables</a></li>
   <li><a href="#how-to-publish-online" id="toc-how-to-publish-online" class="nav-link" data-scroll-target="#how-to-publish-online">How to publish online</a></li>
-  <li>
-<a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a>
   <ul class="collapse">
-<li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
-</li>
-  </ul><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
 <h1 class="title">Farm Store and Penguins</h1>
 <p class="subtitle lead">Get Started with Quarto</p>
 </div>
@@ -200,9 +212,14 @@ div.csl-indent {
   
 
 
-</header><section id="farm-store" class="level1"><h1>Farm Store</h1>
+</header>
+
+
+<section id="farm-store" class="level1">
+<h1>Farm Store</h1>
 <p>CPP Farm store has a selected assortment of cool fruits and vegetables right from its on-campus farm.</p>
-<section id="featured-products" class="level2"><h2 class="anchored" data-anchor-id="featured-products">Featured Products:</h2>
+<section id="featured-products" class="level2">
+<h2 class="anchored" data-anchor-id="featured-products">Featured Products:</h2>
 <p>Illustration of Multiple columns on a website</p>
 <div>
 
@@ -211,22 +228,26 @@ div.csl-indent {
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div id="fig-gift" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-gift-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-gift-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="gift-pack2022.jpg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-gift-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: A sample of gift-pack prepared from CPP Grown produce
-</figcaption></figure>
+</figcaption>
+</figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div id="fig-wine" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-wine-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-wine-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="2022-hv-zin-rose-755x325.jpg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-wine-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: A sample of wine made from grapes grown right here on campus
-</figcaption></figure>
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
@@ -238,41 +259,45 @@ Figure&nbsp;2: A sample of wine made from grapes grown right here on campus
 <p>Fantastic wine produced right here CPP campus by students!</p>
 </div>
 </div>
-</section><section id="web-site-menu" class="level2"><h2 class="anchored" data-anchor-id="web-site-menu">Web site menu</h2>
+</section>
+<section id="web-site-menu" class="level2">
+<h2 class="anchored" data-anchor-id="web-site-menu">Web site menu</h2>
 <p>Use <code>panel-tabset</code> to add multiple tabs to your website.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist">
-<li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Fruit gift packs</a></li>
-<li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Rose Wine</a></li>
-</ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Fruit gift packs</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Rose Wine</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="gift-pack2022.jpg" class="img-fluid figure-img"></p>
-<figcaption>A Sample of gift-pack prepared from CPP-grown produce</figcaption></figure>
+<figure class="figure">
+<p><img src="gift-pack2022.jpg" class="img-fluid figure-img"></p>
+<figcaption>A Sample of gift-pack prepared from CPP-grown produce</figcaption>
+</figure>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="2022-hv-zin-rose-755x325.jpg" class="img-fluid figure-img"></p>
-<figcaption>A sample of wine made from grapes grown right here on campus</figcaption></figure>
+<figure class="figure">
+<p><img src="2022-hv-zin-rose-755x325.jpg" class="img-fluid figure-img"></p>
+<figcaption>A sample of wine made from grapes grown right here on campus</figcaption>
+</figure>
 </div>
 </div>
 </div>
 </div>
 <p>For the beautiful graphic of fruit gift pack, see <a href="#fig-gift" class="quarto-xref">Figure&nbsp;1</a>.</p>
-</section></section><section id="data-preparation" class="level1 page-columns page-full"><h1>Data Preparation</h1>
+</section>
+</section>
+<section id="data-preparation" class="level1 page-columns page-full">
+<h1>Data Preparation</h1>
 <p>First, we need to:</p>
 <ol type="1">
-<li>load <strong>packages</strong>
-</li>
-<li>read in <strong>data</strong>
-</li>
-<li>check if that data is <em>in the right format</em>
-</li>
+<li>load <strong>packages</strong></li>
+<li>read in <strong>data</strong></li>
+<li>check if that data is <em>in the right format</em></li>
 </ol>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">By “right format”, we mean that the data is tidy, and ready to be summarized and graphed</span></div></div>
-<section id="choosing-data" class="level2"><h2 class="anchored" data-anchor-id="choosing-data">Choosing Data</h2>
+<section id="choosing-data" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-data">Choosing Data</h2>
 <blockquote class="blockquote">
 <p>Penguins are very cute!</p>
 </blockquote>
@@ -306,7 +331,9 @@ Using the data without downloading it
 </div>
 </div>
 </div>
-</section><section id="loading-packages-and-reading-data" class="level2"><h2 class="anchored" data-anchor-id="loading-packages-and-reading-data">Loading packages and reading data</h2>
+</section>
+<section id="loading-packages-and-reading-data" class="level2">
+<h2 class="anchored" data-anchor-id="loading-packages-and-reading-data">Loading packages and reading data</h2>
 <div class="smaller callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -320,28 +347,33 @@ Using the data without downloading it
 <p>This same dataset is also available in the <code>palmerpenguins</code> package</p>
 </div>
 </div>
-</section><section id="reading-data" class="level2"><h2 class="anchored" data-anchor-id="reading-data">Reading Data</h2>
+</section>
+<section id="reading-data" class="level2">
+<h2 class="anchored" data-anchor-id="reading-data">Reading Data</h2>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">penguins</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu">gt</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details><div class="cell-output-display">
-<div id="pavtfpaade" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#pavtfpaade table {
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(penguins) <span class="sc">|&gt;</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="qxitcnvjck" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#qxitcnvjck table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#pavtfpaade thead, #pavtfpaade tbody, #pavtfpaade tfoot, #pavtfpaade tr, #pavtfpaade td, #pavtfpaade th {
+#qxitcnvjck thead, #qxitcnvjck tbody, #qxitcnvjck tfoot, #qxitcnvjck tr, #qxitcnvjck td, #qxitcnvjck th {
   border-style: none;
 }
 
-#pavtfpaade p {
+#qxitcnvjck p {
   margin: 0;
   padding: 0;
 }
 
-#pavtfpaade .gt_table {
+#qxitcnvjck .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -367,12 +399,12 @@ Using the data without downloading it
   border-left-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_caption {
+#qxitcnvjck .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#pavtfpaade .gt_title {
+#qxitcnvjck .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -384,7 +416,7 @@ Using the data without downloading it
   border-bottom-width: 0;
 }
 
-#pavtfpaade .gt_subtitle {
+#qxitcnvjck .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -396,7 +428,7 @@ Using the data without downloading it
   border-top-width: 0;
 }
 
-#pavtfpaade .gt_heading {
+#qxitcnvjck .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -408,13 +440,13 @@ Using the data without downloading it
   border-right-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_bottom_border {
+#qxitcnvjck .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_col_headings {
+#qxitcnvjck .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -429,7 +461,7 @@ Using the data without downloading it
   border-right-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_col_heading {
+#qxitcnvjck .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -449,7 +481,7 @@ Using the data without downloading it
   overflow-x: hidden;
 }
 
-#pavtfpaade .gt_column_spanner_outer {
+#qxitcnvjck .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -461,15 +493,15 @@ Using the data without downloading it
   padding-right: 4px;
 }
 
-#pavtfpaade .gt_column_spanner_outer:first-child {
+#qxitcnvjck .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#pavtfpaade .gt_column_spanner_outer:last-child {
+#qxitcnvjck .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#pavtfpaade .gt_column_spanner {
+#qxitcnvjck .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -481,11 +513,11 @@ Using the data without downloading it
   width: 100%;
 }
 
-#pavtfpaade .gt_spanner_row {
+#qxitcnvjck .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#pavtfpaade .gt_group_heading {
+#qxitcnvjck .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -511,7 +543,7 @@ Using the data without downloading it
   text-align: left;
 }
 
-#pavtfpaade .gt_empty_group_heading {
+#qxitcnvjck .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -526,15 +558,15 @@ Using the data without downloading it
   vertical-align: middle;
 }
 
-#pavtfpaade .gt_from_md > :first-child {
+#qxitcnvjck .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#pavtfpaade .gt_from_md > :last-child {
+#qxitcnvjck .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#pavtfpaade .gt_row {
+#qxitcnvjck .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -553,7 +585,7 @@ Using the data without downloading it
   overflow-x: hidden;
 }
 
-#pavtfpaade .gt_stub {
+#qxitcnvjck .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -566,7 +598,7 @@ Using the data without downloading it
   padding-right: 5px;
 }
 
-#pavtfpaade .gt_stub_row_group {
+#qxitcnvjck .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -580,15 +612,15 @@ Using the data without downloading it
   vertical-align: top;
 }
 
-#pavtfpaade .gt_row_group_first td {
+#qxitcnvjck .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#pavtfpaade .gt_row_group_first th {
+#qxitcnvjck .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#pavtfpaade .gt_summary_row {
+#qxitcnvjck .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -598,16 +630,16 @@ Using the data without downloading it
   padding-right: 5px;
 }
 
-#pavtfpaade .gt_first_summary_row {
+#qxitcnvjck .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_first_summary_row.thick {
+#qxitcnvjck .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#pavtfpaade .gt_last_summary_row {
+#qxitcnvjck .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -617,7 +649,7 @@ Using the data without downloading it
   border-bottom-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_grand_summary_row {
+#qxitcnvjck .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -627,7 +659,7 @@ Using the data without downloading it
   padding-right: 5px;
 }
 
-#pavtfpaade .gt_first_grand_summary_row {
+#qxitcnvjck .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -637,7 +669,7 @@ Using the data without downloading it
   border-top-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_last_grand_summary_row_top {
+#qxitcnvjck .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -647,11 +679,11 @@ Using the data without downloading it
   border-bottom-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_striped {
+#qxitcnvjck .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#pavtfpaade .gt_table_body {
+#qxitcnvjck .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -660,7 +692,7 @@ Using the data without downloading it
   border-bottom-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_footnotes {
+#qxitcnvjck .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -674,7 +706,7 @@ Using the data without downloading it
   border-right-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_footnote {
+#qxitcnvjck .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -683,7 +715,7 @@ Using the data without downloading it
   padding-right: 5px;
 }
 
-#pavtfpaade .gt_sourcenotes {
+#qxitcnvjck .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -697,7 +729,7 @@ Using the data without downloading it
   border-right-color: #D3D3D3;
 }
 
-#pavtfpaade .gt_sourcenote {
+#qxitcnvjck .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -705,77 +737,79 @@ Using the data without downloading it
   padding-right: 5px;
 }
 
-#pavtfpaade .gt_left {
+#qxitcnvjck .gt_left {
   text-align: left;
 }
 
-#pavtfpaade .gt_center {
+#qxitcnvjck .gt_center {
   text-align: center;
 }
 
-#pavtfpaade .gt_right {
+#qxitcnvjck .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#pavtfpaade .gt_font_normal {
+#qxitcnvjck .gt_font_normal {
   font-weight: normal;
 }
 
-#pavtfpaade .gt_font_bold {
+#qxitcnvjck .gt_font_bold {
   font-weight: bold;
 }
 
-#pavtfpaade .gt_font_italic {
+#qxitcnvjck .gt_font_italic {
   font-style: italic;
 }
 
-#pavtfpaade .gt_super {
+#qxitcnvjck .gt_super {
   font-size: 65%;
 }
 
-#pavtfpaade .gt_footnote_marks {
+#qxitcnvjck .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#pavtfpaade .gt_asterisk {
+#qxitcnvjck .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#pavtfpaade .gt_indent_1 {
+#qxitcnvjck .gt_indent_1 {
   text-indent: 5px;
 }
 
-#pavtfpaade .gt_indent_2 {
+#qxitcnvjck .gt_indent_2 {
   text-indent: 10px;
 }
 
-#pavtfpaade .gt_indent_3 {
+#qxitcnvjck .gt_indent_3 {
   text-indent: 15px;
 }
 
-#pavtfpaade .gt_indent_4 {
+#qxitcnvjck .gt_indent_4 {
   text-indent: 20px;
 }
 
-#pavtfpaade .gt_indent_5 {
+#qxitcnvjck .gt_indent_5 {
   text-indent: 25px;
 }
 
-#pavtfpaade .katex-display {
+#qxitcnvjck .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#pavtfpaade div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#qxitcnvjck div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
+
 <table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<thead><tr class="gt_col_headings header">
+<thead>
+<tr class="gt_col_headings header">
 <th id="species" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">species</th>
 <th id="island" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">island</th>
 <th id="bill_length_mm" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">bill_length_mm</th>
@@ -784,7 +818,8 @@ Using the data without downloading it
 <th id="body_mass_g" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">body_mass_g</th>
 <th id="sex" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">sex</th>
 <th id="year" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">year</th>
-</tr></thead>
+</tr>
+</thead>
 <tbody class="gt_table_body">
 <tr class="odd">
 <td class="gt_row gt_center" headers="species">Adelie</td>
@@ -848,13 +883,19 @@ Using the data without downloading it
 </tr>
 </tbody>
 </table>
+
 </div>
 </div>
 </div>
-</section><section id="cleaning-data" class="level2"><h2 class="anchored" data-anchor-id="cleaning-data">Cleaning Data</h2>
+</section>
+<section id="cleaning-data" class="level2">
+<h2 class="anchored" data-anchor-id="cleaning-data">Cleaning Data</h2>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">glimpse</span><span class="op">(</span><span class="va">penguins</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details><div class="cell-output cell-output-stdout">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
 <pre><code>Rows: 344
 Columns: 8
 $ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…
@@ -866,31 +907,34 @@ $ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 34
 $ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…
 $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…</code></pre>
 </div>
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">penguins</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu">drop_na</span><span class="op">(</span><span class="op">)</span> <span class="op">-&gt;</span> <span class="va">penguins_no_na</span></span>
-<span></span>
-<span><span class="va">penguins_no_na</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu">gt</span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu">tab_header</span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Penguins Data After Removing NA's"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details><div class="cell-output-display">
-<div id="vfougqbjeo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#vfougqbjeo table {
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">|&gt;</span> </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="ot">-&gt;</span> penguins_no_na</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>penguins_no_na <span class="sc">|&gt;</span> </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_header</span>(<span class="at">title =</span> <span class="st">"Penguins Data After Removing NA's"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="xrtmkokaan" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#xrtmkokaan table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#vfougqbjeo thead, #vfougqbjeo tbody, #vfougqbjeo tfoot, #vfougqbjeo tr, #vfougqbjeo td, #vfougqbjeo th {
+#xrtmkokaan thead, #xrtmkokaan tbody, #xrtmkokaan tfoot, #xrtmkokaan tr, #xrtmkokaan td, #xrtmkokaan th {
   border-style: none;
 }
 
-#vfougqbjeo p {
+#xrtmkokaan p {
   margin: 0;
   padding: 0;
 }
 
-#vfougqbjeo .gt_table {
+#xrtmkokaan .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -916,12 +960,12 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-left-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_caption {
+#xrtmkokaan .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#vfougqbjeo .gt_title {
+#xrtmkokaan .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -933,7 +977,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-bottom-width: 0;
 }
 
-#vfougqbjeo .gt_subtitle {
+#xrtmkokaan .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -945,7 +989,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-top-width: 0;
 }
 
-#vfougqbjeo .gt_heading {
+#xrtmkokaan .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -957,13 +1001,13 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-right-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_bottom_border {
+#xrtmkokaan .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_col_headings {
+#xrtmkokaan .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -978,7 +1022,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-right-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_col_heading {
+#xrtmkokaan .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -998,7 +1042,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   overflow-x: hidden;
 }
 
-#vfougqbjeo .gt_column_spanner_outer {
+#xrtmkokaan .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1010,15 +1054,15 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   padding-right: 4px;
 }
 
-#vfougqbjeo .gt_column_spanner_outer:first-child {
+#xrtmkokaan .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vfougqbjeo .gt_column_spanner_outer:last-child {
+#xrtmkokaan .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vfougqbjeo .gt_column_spanner {
+#xrtmkokaan .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1030,11 +1074,11 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   width: 100%;
 }
 
-#vfougqbjeo .gt_spanner_row {
+#xrtmkokaan .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#vfougqbjeo .gt_group_heading {
+#xrtmkokaan .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1060,7 +1104,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   text-align: left;
 }
 
-#vfougqbjeo .gt_empty_group_heading {
+#xrtmkokaan .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1075,15 +1119,15 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   vertical-align: middle;
 }
 
-#vfougqbjeo .gt_from_md > :first-child {
+#xrtmkokaan .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vfougqbjeo .gt_from_md > :last-child {
+#xrtmkokaan .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vfougqbjeo .gt_row {
+#xrtmkokaan .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1102,7 +1146,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   overflow-x: hidden;
 }
 
-#vfougqbjeo .gt_stub {
+#xrtmkokaan .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1115,7 +1159,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   padding-right: 5px;
 }
 
-#vfougqbjeo .gt_stub_row_group {
+#xrtmkokaan .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1129,15 +1173,15 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   vertical-align: top;
 }
 
-#vfougqbjeo .gt_row_group_first td {
+#xrtmkokaan .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#vfougqbjeo .gt_row_group_first th {
+#xrtmkokaan .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#vfougqbjeo .gt_summary_row {
+#xrtmkokaan .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1147,16 +1191,16 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   padding-right: 5px;
 }
 
-#vfougqbjeo .gt_first_summary_row {
+#xrtmkokaan .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_first_summary_row.thick {
+#xrtmkokaan .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#vfougqbjeo .gt_last_summary_row {
+#xrtmkokaan .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1166,7 +1210,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-bottom-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_grand_summary_row {
+#xrtmkokaan .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1176,7 +1220,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   padding-right: 5px;
 }
 
-#vfougqbjeo .gt_first_grand_summary_row {
+#xrtmkokaan .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1186,7 +1230,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-top-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_last_grand_summary_row_top {
+#xrtmkokaan .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1196,11 +1240,11 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-bottom-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_striped {
+#xrtmkokaan .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vfougqbjeo .gt_table_body {
+#xrtmkokaan .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1209,7 +1253,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-bottom-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_footnotes {
+#xrtmkokaan .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1223,7 +1267,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-right-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_footnote {
+#xrtmkokaan .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1232,7 +1276,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   padding-right: 5px;
 }
 
-#vfougqbjeo .gt_sourcenotes {
+#xrtmkokaan .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1246,7 +1290,7 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   border-right-color: #D3D3D3;
 }
 
-#vfougqbjeo .gt_sourcenote {
+#xrtmkokaan .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1254,75 +1298,76 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
   padding-right: 5px;
 }
 
-#vfougqbjeo .gt_left {
+#xrtmkokaan .gt_left {
   text-align: left;
 }
 
-#vfougqbjeo .gt_center {
+#xrtmkokaan .gt_center {
   text-align: center;
 }
 
-#vfougqbjeo .gt_right {
+#xrtmkokaan .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vfougqbjeo .gt_font_normal {
+#xrtmkokaan .gt_font_normal {
   font-weight: normal;
 }
 
-#vfougqbjeo .gt_font_bold {
+#xrtmkokaan .gt_font_bold {
   font-weight: bold;
 }
 
-#vfougqbjeo .gt_font_italic {
+#xrtmkokaan .gt_font_italic {
   font-style: italic;
 }
 
-#vfougqbjeo .gt_super {
+#xrtmkokaan .gt_super {
   font-size: 65%;
 }
 
-#vfougqbjeo .gt_footnote_marks {
+#xrtmkokaan .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#vfougqbjeo .gt_asterisk {
+#xrtmkokaan .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#vfougqbjeo .gt_indent_1 {
+#xrtmkokaan .gt_indent_1 {
   text-indent: 5px;
 }
 
-#vfougqbjeo .gt_indent_2 {
+#xrtmkokaan .gt_indent_2 {
   text-indent: 10px;
 }
 
-#vfougqbjeo .gt_indent_3 {
+#xrtmkokaan .gt_indent_3 {
   text-indent: 15px;
 }
 
-#vfougqbjeo .gt_indent_4 {
+#xrtmkokaan .gt_indent_4 {
   text-indent: 20px;
 }
 
-#vfougqbjeo .gt_indent_5 {
+#xrtmkokaan .gt_indent_5 {
   text-indent: 25px;
 }
 
-#vfougqbjeo .katex-display {
+#xrtmkokaan .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#vfougqbjeo div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#xrtmkokaan div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
+
 <table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
 <tr class="gt_heading header">
@@ -1402,19 +1447,24 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 </tr>
 </tbody>
 </table>
+
 </div>
 </div>
 </div>
 <p>We have removed missing values here, which means that the data has now 333 rows. Note that previously there were 344 rows in the original data.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-</section><section id="code-annotation" class="level2"><h2 class="anchored" data-anchor-id="code-annotation">Code Annotation</h2>
-<div class="sourceCode" id="annotated-cell-4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://allisonhorst.github.io/palmerpenguins/">palmerpenguins</a></span><span class="op">)</span></span>
-<span><span class="va">penguins</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
-<span>    bill_ratio <span class="op">=</span> <span class="va">bill_depth_mm</span> <span class="op">/</span> <span class="va">bill_length_mm</span>,</span>
-<span>    bill_area  <span class="op">=</span> <span class="va">bill_depth_mm</span> <span class="op">*</span> <span class="va">bill_length_mm</span></span>
-<span>  <span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<dl>
+</section>
+<section id="code-annotation" class="level2">
+<h2 class="anchored" data-anchor-id="code-annotation">Code Annotation</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-4"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-4-1"><a href="#annotated-cell-4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="annotated-cell-4-2"><a href="#annotated-cell-4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(palmerpenguins)</span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-4-3" class="code-annotation-target"><a href="#annotated-cell-4-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">|&gt;</span></span>
+<a class="code-annotation-anchor" data-target-cell="annotated-cell-4" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-4-4" class="code-annotation-target"><a href="#annotated-cell-4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="annotated-cell-4-5"><a href="#annotated-cell-4-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">bill_ratio =</span> bill_depth_mm <span class="sc">/</span> bill_length_mm,</span>
+<span id="annotated-cell-4-6"><a href="#annotated-cell-4-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">bill_area  =</span> bill_depth_mm <span class="sc">*</span> bill_length_mm</span>
+<span id="annotated-cell-4-7"><a href="#annotated-cell-4-7" aria-hidden="true" tabindex="-1"></a>  )</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-grid">
 <dt data-target-cell="annotated-cell-4" data-target-annotation="1">1</dt>
 <dd>
 <span data-code-cell="annotated-cell-4" data-code-lines="3" data-code-annotation="1">Take <code>penguins</code>, and then,</span>
@@ -1423,57 +1473,92 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <dd>
 <span data-code-cell="annotated-cell-4" data-code-lines="4,5,6,7" data-code-annotation="2">add new columns for the bill ratio and bill area.</span>
 </dd>
-</dl></section></section><section id="charts-by-species" class="level1"><h1>Charts by Species</h1>
+</dl>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 344 × 10
+   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g
+   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;
+ 1 Adelie  Torgersen           39.1          18.7               181        3750
+ 2 Adelie  Torgersen           39.5          17.4               186        3800
+ 3 Adelie  Torgersen           40.3          18                 195        3250
+ 4 Adelie  Torgersen           NA            NA                  NA          NA
+ 5 Adelie  Torgersen           36.7          19.3               193        3450
+ 6 Adelie  Torgersen           39.3          20.6               190        3650
+ 7 Adelie  Torgersen           38.9          17.8               181        3625
+ 8 Adelie  Torgersen           39.2          19.6               195        4675
+ 9 Adelie  Torgersen           34.1          18.1               193        3475
+10 Adelie  Torgersen           42            20.2               190        4250
+# ℹ 334 more rows
+# ℹ 4 more variables: sex &lt;fct&gt;, year &lt;int&gt;, bill_ratio &lt;dbl&gt;, bill_area &lt;dbl&gt;</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="charts-by-species" class="level1">
+<h1>Charts by Species</h1>
 <p><a href="#fig-bi-dims-species" class="quarto-xref">Figure&nbsp;3</a> is a bar plot of species of penguins.</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span> <span class="va">penguins</span> <span class="op">|&gt;</span> </span>
-<span>   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span><span class="va">bill_length_mm</span>, <span class="va">bill_depth_mm</span>, color <span class="op">=</span> <span class="va">species</span>,</span>
-<span>              shape <span class="op">=</span> <span class="va">species</span><span class="op">)</span><span class="op">)</span><span class="op">+</span></span>
-<span>   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
-<span>   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
-<span>   <span class="fu">scale_color_colorblind</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
-<span>   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>x <span class="op">=</span> <span class="st">"Bill length (mm)"</span>,</span>
-<span>        y <span class="op">=</span> <span class="st">"Bill depth (mm)"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details><div class="cell-output-display">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a> penguins <span class="sc">|&gt;</span> </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>   <span class="fu">ggplot</span>(<span class="fu">aes</span>(bill_length_mm, bill_depth_mm, <span class="at">color =</span> species,</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>              <span class="at">shape =</span> species))<span class="sc">+</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>   <span class="fu">scale_color_colorblind</span>() <span class="sc">+</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>   <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Bill length (mm)"</span>,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>        <span class="at">y =</span> <span class="st">"Bill depth (mm)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
 <div id="fig-bi-dims-species" class="quarto-float quarto-figure quarto-figure-center anchored" alt="A scatterplot of penguins' bill depth and length, colored by species of penguins.  There is a strong,  linear associaiton ">
-<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-bi-dims-species-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bi-dims-species-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="index_files/figure-html/fig-bi-dims-species-1.png" class="img-fluid figure-img" alt="A scatterplot of penguins' bill depth and length, colored by species of penguins.  There is a strong,  linear associaiton " width="480">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bi-dims-species-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3: Penguini bill dimensions
-</figcaption></figure>
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
-</section><section id="tables" class="level1"><h1>Tables</h1>
+</section>
+<section id="tables" class="level1">
+<h1>Tables</h1>
 <p><a href="#tbl-penguins-top10" class="quarto-xref">Table&nbsp;1</a> shows the first 10 penguins from the dataset.</p>
 <div class="cell">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">penguins</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/slice.html">slice_head</a></span><span class="op">(</span>n <span class="op">=</span> <span class="fl">10</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">species</span>, <span class="va">island</span>, <span class="va">bill_length_mm</span>, <span class="va">bill_depth_mm</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu">gt</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details><div id="tbl-penguins-top10" class="cell quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure"><figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-penguins-top10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">|&gt;</span> </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">10</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(species, island, bill_length_mm, bill_depth_mm) <span class="sc">|&gt;</span> </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div id="tbl-penguins-top10" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-penguins-top10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
-</figcaption><div aria-describedby="tbl-penguins-top10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+</figcaption>
+<div aria-describedby="tbl-penguins-top10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="ksrswnubvj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ksrswnubvj table {
+<div id="ckyyvpwwzg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ckyyvpwwzg table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#ksrswnubvj thead, #ksrswnubvj tbody, #ksrswnubvj tfoot, #ksrswnubvj tr, #ksrswnubvj td, #ksrswnubvj th {
+#ckyyvpwwzg thead, #ckyyvpwwzg tbody, #ckyyvpwwzg tfoot, #ckyyvpwwzg tr, #ckyyvpwwzg td, #ckyyvpwwzg th {
   border-style: none;
 }
 
-#ksrswnubvj p {
+#ckyyvpwwzg p {
   margin: 0;
   padding: 0;
 }
 
-#ksrswnubvj .gt_table {
+#ckyyvpwwzg .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1499,12 +1584,12 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-left-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_caption {
+#ckyyvpwwzg .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ksrswnubvj .gt_title {
+#ckyyvpwwzg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1516,7 +1601,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-bottom-width: 0;
 }
 
-#ksrswnubvj .gt_subtitle {
+#ckyyvpwwzg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1528,7 +1613,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-top-width: 0;
 }
 
-#ksrswnubvj .gt_heading {
+#ckyyvpwwzg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1540,13 +1625,13 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-right-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_bottom_border {
+#ckyyvpwwzg .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_col_headings {
+#ckyyvpwwzg .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1561,7 +1646,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-right-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_col_heading {
+#ckyyvpwwzg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1581,7 +1666,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   overflow-x: hidden;
 }
 
-#ksrswnubvj .gt_column_spanner_outer {
+#ckyyvpwwzg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1593,15 +1678,15 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   padding-right: 4px;
 }
 
-#ksrswnubvj .gt_column_spanner_outer:first-child {
+#ckyyvpwwzg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ksrswnubvj .gt_column_spanner_outer:last-child {
+#ckyyvpwwzg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ksrswnubvj .gt_column_spanner {
+#ckyyvpwwzg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1613,11 +1698,11 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   width: 100%;
 }
 
-#ksrswnubvj .gt_spanner_row {
+#ckyyvpwwzg .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#ksrswnubvj .gt_group_heading {
+#ckyyvpwwzg .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1643,7 +1728,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   text-align: left;
 }
 
-#ksrswnubvj .gt_empty_group_heading {
+#ckyyvpwwzg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1658,15 +1743,15 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   vertical-align: middle;
 }
 
-#ksrswnubvj .gt_from_md > :first-child {
+#ckyyvpwwzg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ksrswnubvj .gt_from_md > :last-child {
+#ckyyvpwwzg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ksrswnubvj .gt_row {
+#ckyyvpwwzg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1685,7 +1770,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   overflow-x: hidden;
 }
 
-#ksrswnubvj .gt_stub {
+#ckyyvpwwzg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1698,7 +1783,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   padding-right: 5px;
 }
 
-#ksrswnubvj .gt_stub_row_group {
+#ckyyvpwwzg .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1712,15 +1797,15 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   vertical-align: top;
 }
 
-#ksrswnubvj .gt_row_group_first td {
+#ckyyvpwwzg .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ksrswnubvj .gt_row_group_first th {
+#ckyyvpwwzg .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#ksrswnubvj .gt_summary_row {
+#ckyyvpwwzg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1730,16 +1815,16 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   padding-right: 5px;
 }
 
-#ksrswnubvj .gt_first_summary_row {
+#ckyyvpwwzg .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_first_summary_row.thick {
+#ckyyvpwwzg .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ksrswnubvj .gt_last_summary_row {
+#ckyyvpwwzg .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1749,7 +1834,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-bottom-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_grand_summary_row {
+#ckyyvpwwzg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1759,7 +1844,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   padding-right: 5px;
 }
 
-#ksrswnubvj .gt_first_grand_summary_row {
+#ckyyvpwwzg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1769,7 +1854,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-top-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_last_grand_summary_row_top {
+#ckyyvpwwzg .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1779,11 +1864,11 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-bottom-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_striped {
+#ckyyvpwwzg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ksrswnubvj .gt_table_body {
+#ckyyvpwwzg .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1792,7 +1877,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-bottom-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_footnotes {
+#ckyyvpwwzg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1806,7 +1891,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-right-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_footnote {
+#ckyyvpwwzg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1815,7 +1900,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   padding-right: 5px;
 }
 
-#ksrswnubvj .gt_sourcenotes {
+#ckyyvpwwzg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1829,7 +1914,7 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   border-right-color: #D3D3D3;
 }
 
-#ksrswnubvj .gt_sourcenote {
+#ckyyvpwwzg .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1837,82 +1922,85 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
   padding-right: 5px;
 }
 
-#ksrswnubvj .gt_left {
+#ckyyvpwwzg .gt_left {
   text-align: left;
 }
 
-#ksrswnubvj .gt_center {
+#ckyyvpwwzg .gt_center {
   text-align: center;
 }
 
-#ksrswnubvj .gt_right {
+#ckyyvpwwzg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ksrswnubvj .gt_font_normal {
+#ckyyvpwwzg .gt_font_normal {
   font-weight: normal;
 }
 
-#ksrswnubvj .gt_font_bold {
+#ckyyvpwwzg .gt_font_bold {
   font-weight: bold;
 }
 
-#ksrswnubvj .gt_font_italic {
+#ckyyvpwwzg .gt_font_italic {
   font-style: italic;
 }
 
-#ksrswnubvj .gt_super {
+#ckyyvpwwzg .gt_super {
   font-size: 65%;
 }
 
-#ksrswnubvj .gt_footnote_marks {
+#ckyyvpwwzg .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#ksrswnubvj .gt_asterisk {
+#ckyyvpwwzg .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ksrswnubvj .gt_indent_1 {
+#ckyyvpwwzg .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ksrswnubvj .gt_indent_2 {
+#ckyyvpwwzg .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ksrswnubvj .gt_indent_3 {
+#ckyyvpwwzg .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ksrswnubvj .gt_indent_4 {
+#ckyyvpwwzg .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ksrswnubvj .gt_indent_5 {
+#ckyyvpwwzg .gt_indent_5 {
   text-indent: 25px;
 }
 
-#ksrswnubvj .katex-display {
+#ckyyvpwwzg .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#ksrswnubvj div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#ckyyvpwwzg div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
+
 <table class="gt_table do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<thead><tr class="gt_col_headings header">
+<thead>
+<tr class="gt_col_headings header">
 <th id="species" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">species</th>
 <th id="island" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">island</th>
 <th id="bill_length_mm" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">bill_length_mm</th>
 <th id="bill_depth_mm" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">bill_depth_mm</th>
-</tr></thead>
+</tr>
+</thead>
 <tbody class="gt_table_body">
 <tr class="odd">
 <td class="gt_row gt_center" headers="species">Adelie</td>
@@ -1976,56 +2064,62 @@ Table&nbsp;1: Top 10 Penguins Sorted by Bill Lengths
 </tr>
 </tbody>
 </table>
+
 </div>
 </div>
 </div>
 </figure>
 </div>
 </div>
-</section><section id="how-to-publish-online" class="level1"><h1>How to publish online</h1>
+</section>
+<section id="how-to-publish-online" class="level1">
+<h1>How to publish online</h1>
 <ol type="1">
-<li>
-<p>Create your content in Quarto. You need at least three documents</p>
+<li><p>Create your content in Quarto. You need at least three documents</p>
 <ol type="1">
 <li><p>index.qmd</p></li>
 <li><p>another qmd file</p></li>
 <li><p>“_quarto.yml” created in Text File.</p></li>
-</ol>
-</li>
+</ol></li>
 <li><p>Reload the4 project from the upper-right-hand corner. After this, you should see the “build” tab appear next to the environment tab.</p></li>
 <li><p>Click “Render website” and confirm that you have a website with all the files combined.</p></li>
-<li>
-<p>Now it is time to publish</p>
+<li><p>Now it is time to publish</p>
 <ol type="1">
 <li><p>Move to the terminal next to “Console” tab.</p></li>
 <li><p>Type “quarto publish quarto-pub” and follow the instructions on the pane.</p></li>
 <li><p>Go to your quarto-pub website and find it.</p></li>
+</ol></li>
 </ol>
-</li>
-</ol></section><section id="resources" class="level1"><h1>Resources</h1>
+</section>
+<section id="resources" class="level1">
+<h1>Resources</h1>
 <ul>
-<li>Authoring: <a href="https://quarto.org/docs/authoring/markdown-basics.html" class="uri">https://quarto.org/docs/authoring/markdown-basics.html</a>
-</li>
-<li>Creating a website: <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a>
-</li>
+<li>Authoring: <a href="https://quarto.org/docs/authoring/markdown-basics.html" class="uri">https://quarto.org/docs/authoring/markdown-basics.html</a></li>
+<li>Creating a website: <a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></li>
 <li><a href="https://quarto.org/docs/websites/">Quarto Gallery</a></li>
-<li>Get started with Quarto | Mine Cetinkaya-Rundel: <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/_f3latmOhew" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</li>
-<li>Quarto for Academics | Mine Çetinkaya-Rundel: <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EbAAmrB0luA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</li>
+<li>Get started with Quarto | Mine Cetinkaya-Rundel: <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/_f3latmOhew" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></li>
+<li>Quarto for Academics | Mine Çetinkaya-Rundel: <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EbAAmrB0luA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></li>
 </ul>
 <section id="references" class="level2">
 
 
 
-</section></section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-gorman2014" class="csl-entry" role="listitem">
 Gorman, Kristen B., Tony D. Williams, and William R. Fraser. 2014. <span>“Ecological Sexual Dimorphism and Environmental Variability Within a Community of Antarctic Penguins (Genus Pygoscelis).”</span> Edited by André Chiaradia. <em>PLoS ONE</em> 9 (3): e90081. <a href="https://doi.org/10.1371/journal.pone.0090081">https://doi.org/10.1371/journal.pone.0090081</a>.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
 <ol>
 <li id="fn1"><p>Note that this removes any rows with missing values!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -2443,6 +2537,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

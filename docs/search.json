@@ -123,21 +123,21 @@
     "href": "index.html",
     "title": "Farm Store and Penguins",
     "section": "",
-    "text": "CPP Farm store has a selected assortment of cool fruits and vegetables right from its on-campus farm.\n\nIllustration of Multiple columns on a website\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: A sample of gift-pack prepared from CPP Grown produce\n\n\n\n\n\n\n\n\n\nFigure 2: A sample of wine made from grapes grown right here on campus\n\n\n\n\n\n\n\nGreat gift for your loved ones. These fruits were raised by students in agriculture majors on CPP campus, processed and packed by student employees at Farm Store.\n\nFantastic wine produced right here CPP campus by students!\n\n\n\nUse panel-tabset to add multiple tabs to your website.\n\n\nFruit gift packs\nRose Wine\n\n\n\n\n\nA Sample of gift-pack prepared from CPP-grown produce\n\n\n\n\n\nA sample of wine made from grapes grown right here on campus\n\n\n\n\nFor the beautiful graphic of fruit gift pack, see Figure 1."
+    "text": "CPP Farm store has a selected assortment of cool fruits and vegetables right from its on-campus farm.\n\n\nIllustration of Multiple columns on a website\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: A sample of gift-pack prepared from CPP Grown produce\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: A sample of wine made from grapes grown right here on campus\n\n\n\n\n\n\n\n\nGreat gift for your loved ones. These fruits were raised by students in agriculture majors on CPP campus, processed and packed by student employees at Farm Store.\n\nFantastic wine produced right here CPP campus by students!\n\n\n\n\n\nUse panel-tabset to add multiple tabs to your website.\n\nFruit gift packsRose Wine\n\n\n\n\n\nA Sample of gift-pack prepared from CPP-grown produce\n\n\n\n\n\n\n\nA sample of wine made from grapes grown right here on campus\n\n\n\n\n\nFor the beautiful graphic of fruit gift pack, see Figure 1."
   },
   {
     "objectID": "index.html#featured-products",
     "href": "index.html#featured-products",
     "title": "Farm Store and Penguins",
     "section": "",
-    "text": "Illustration of Multiple columns on a website\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: A sample of gift-pack prepared from CPP Grown produce\n\n\n\n\n\n\n\n\n\nFigure 2: A sample of wine made from grapes grown right here on campus\n\n\n\n\n\n\n\nGreat gift for your loved ones. These fruits were raised by students in agriculture majors on CPP campus, processed and packed by student employees at Farm Store.\n\nFantastic wine produced right here CPP campus by students!"
+    "text": "Illustration of Multiple columns on a website\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: A sample of gift-pack prepared from CPP Grown produce\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: A sample of wine made from grapes grown right here on campus\n\n\n\n\n\n\n\n\nGreat gift for your loved ones. These fruits were raised by students in agriculture majors on CPP campus, processed and packed by student employees at Farm Store.\n\nFantastic wine produced right here CPP campus by students!"
   },
   {
     "objectID": "index.html#web-site-menu",
     "href": "index.html#web-site-menu",
     "title": "Farm Store and Penguins",
     "section": "",
-    "text": "Use panel-tabset to add multiple tabs to your website.\n\n\nFruit gift packs\nRose Wine\n\n\n\n\n\nA Sample of gift-pack prepared from CPP-grown produce\n\n\n\n\n\nA sample of wine made from grapes grown right here on campus\n\n\n\n\nFor the beautiful graphic of fruit gift pack, see Figure 1."
+    "text": "Use panel-tabset to add multiple tabs to your website.\n\nFruit gift packsRose Wine\n\n\n\n\n\nA Sample of gift-pack prepared from CPP-grown produce\n\n\n\n\n\n\n\nA sample of wine made from grapes grown right here on campus\n\n\n\n\n\nFor the beautiful graphic of fruit gift pack, see Figure 1."
   },
   {
     "objectID": "index.html#choosing-data",
@@ -158,27 +158,27 @@
     "href": "index.html#reading-data",
     "title": "Farm Store and Penguins",
     "section": "Reading Data",
-    "text": "Reading Data\n\nCodehead(penguins) |&gt; \n  gt()\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\nAdelie\nTorgersen\n39.1\n18.7\n181\n3750\nmale\n2007\n\n\nAdelie\nTorgersen\n39.5\n17.4\n186\n3800\nfemale\n2007\n\n\nAdelie\nTorgersen\n40.3\n18.0\n195\n3250\nfemale\n2007\n\n\nAdelie\nTorgersen\nNA\nNA\nNA\nNA\nNA\n2007\n\n\nAdelie\nTorgersen\n36.7\n19.3\n193\n3450\nfemale\n2007\n\n\nAdelie\nTorgersen\n39.3\n20.6\n190\n3650\nmale\n2007"
+    "text": "Reading Data\n\n\nCode\nhead(penguins) |&gt; \n  gt()\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\nAdelie\nTorgersen\n39.1\n18.7\n181\n3750\nmale\n2007\n\n\nAdelie\nTorgersen\n39.5\n17.4\n186\n3800\nfemale\n2007\n\n\nAdelie\nTorgersen\n40.3\n18.0\n195\n3250\nfemale\n2007\n\n\nAdelie\nTorgersen\nNA\nNA\nNA\nNA\nNA\n2007\n\n\nAdelie\nTorgersen\n36.7\n19.3\n193\n3450\nfemale\n2007\n\n\nAdelie\nTorgersen\n39.3\n20.6\n190\n3650\nmale\n2007"
   },
   {
     "objectID": "index.html#cleaning-data",
     "href": "index.html#cleaning-data",
     "title": "Farm Store and Penguins",
     "section": "Cleaning Data",
-    "text": "Cleaning Data\n\nCodeglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n\nCodepenguins |&gt; \n  drop_na() -&gt; penguins_no_na\n\npenguins_no_na |&gt; \n  head() |&gt; \n  gt() |&gt; \n  tab_header(title = \"Penguins Data After Removing NA's\")\n\n\n\n\n\n\nPenguins Data After Removing NA's\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\nAdelie\nTorgersen\n39.1\n18.7\n181\n3750\nmale\n2007\n\n\nAdelie\nTorgersen\n39.5\n17.4\n186\n3800\nfemale\n2007\n\n\nAdelie\nTorgersen\n40.3\n18.0\n195\n3250\nfemale\n2007\n\n\nAdelie\nTorgersen\n36.7\n19.3\n193\n3450\nfemale\n2007\n\n\nAdelie\nTorgersen\n39.3\n20.6\n190\n3650\nmale\n2007\n\n\nAdelie\nTorgersen\n38.9\n17.8\n181\n3625\nfemale\n2007\n\n\n\n\n\n\nWe have removed missing values here, which means that the data has now 333 rows. Note that previously there were 344 rows in the original data.1"
+    "text": "Cleaning Data\n\n\nCode\nglimpse(penguins)\n\n\nRows: 344\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n\n\nCode\npenguins |&gt; \n  drop_na() -&gt; penguins_no_na\n\npenguins_no_na |&gt; \n  head() |&gt; \n  gt() |&gt; \n  tab_header(title = \"Penguins Data After Removing NA's\")\n\n\n\n\n\n\n\n\nPenguins Data After Removing NA's\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\nAdelie\nTorgersen\n39.1\n18.7\n181\n3750\nmale\n2007\n\n\nAdelie\nTorgersen\n39.5\n17.4\n186\n3800\nfemale\n2007\n\n\nAdelie\nTorgersen\n40.3\n18.0\n195\n3250\nfemale\n2007\n\n\nAdelie\nTorgersen\n36.7\n19.3\n193\n3450\nfemale\n2007\n\n\nAdelie\nTorgersen\n39.3\n20.6\n190\n3650\nmale\n2007\n\n\nAdelie\nTorgersen\n38.9\n17.8\n181\n3625\nfemale\n2007\n\n\n\n\n\n\n\nWe have removed missing values here, which means that the data has now 333 rows. Note that previously there were 344 rows in the original data.1"
   },
   {
     "objectID": "index.html#code-annotation",
     "href": "index.html#code-annotation",
     "title": "Farm Store and Penguins",
     "section": "Code Annotation",
-    "text": "Code Annotation\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npenguins |&gt;\n  mutate(\n    bill_ratio = bill_depth_mm / bill_length_mm,\n    bill_area  = bill_depth_mm * bill_length_mm\n  )\n\n1\n\nTake penguins, and then,\n\n2\n\nadd new columns for the bill ratio and bill area."
+    "text": "Code Annotation\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n1penguins |&gt;\n2  mutate(\n    bill_ratio = bill_depth_mm / bill_length_mm,\n    bill_area  = bill_depth_mm * bill_length_mm\n  )\n\n\n1\n\nTake penguins, and then,\n\n2\n\nadd new columns for the bill ratio and bill area.\n\n\n\n\n# A tibble: 344 × 10\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750\n 2 Adelie  Torgersen           39.5          17.4               186        3800\n 3 Adelie  Torgersen           40.3          18                 195        3250\n 4 Adelie  Torgersen           NA            NA                  NA          NA\n 5 Adelie  Torgersen           36.7          19.3               193        3450\n 6 Adelie  Torgersen           39.3          20.6               190        3650\n 7 Adelie  Torgersen           38.9          17.8               181        3625\n 8 Adelie  Torgersen           39.2          19.6               195        4675\n 9 Adelie  Torgersen           34.1          18.1               193        3475\n10 Adelie  Torgersen           42            20.2               190        4250\n# ℹ 334 more rows\n# ℹ 4 more variables: sex &lt;fct&gt;, year &lt;int&gt;, bill_ratio &lt;dbl&gt;, bill_area &lt;dbl&gt;"
   },
   {
     "objectID": "index.html#footnotes",
     "href": "index.html#footnotes",
     "title": "Farm Store and Penguins",
     "section": "Footnotes",
-    "text": "Footnotes\n\nNote that this removes any rows with missing values!↩︎"
+    "text": "Footnotes\n\n\nNote that this removes any rows with missing values!↩︎"
   }
 ]

@@ -5,14 +5,15 @@ format:
   html:
     code-fold: true
     code-link: true
+    code-annotations: below
     toc: true
     number-sections: false
   pdf: default
+  docx: default
 editor: visual
 execute: 
   echo: true
 bibliography: references.bib
-code-annotations: true
 ---
 
 # Farm Store
@@ -131,7 +132,9 @@ We have removed missing values here, which means that the data has now `r nrow(p
 
 ## Code Annotation
 
-``` r
+```{r} 
+#| code-fold: false
+
 library(tidyverse)
 library(palmerpenguins)
 penguins |>                                       # <1>
